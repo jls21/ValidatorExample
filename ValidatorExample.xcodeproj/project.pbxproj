@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C20F56B21F6ACECF00BB31AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F56B11F6ACECF00BB31AD /* AppDelegate.swift */; };
-		C20F56B41F6ACECF00BB31AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F56B31F6ACECF00BB31AD /* ViewController.swift */; };
-		C20F56B71F6ACECF00BB31AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20F56B51F6ACECF00BB31AD /* Main.storyboard */; };
 		C20F56B91F6ACECF00BB31AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20F56B81F6ACECF00BB31AD /* Assets.xcassets */; };
 		C20F56BC1F6ACECF00BB31AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20F56BA1F6ACECF00BB31AD /* LaunchScreen.storyboard */; };
+		C20F56C71F6ACEEF00BB31AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20F56C31F6ACEEF00BB31AD /* Main.storyboard */; };
+		C20F56C81F6ACEEF00BB31AD /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F56C41F6ACEEF00BB31AD /* RegistrationViewController.swift */; };
+		C20F56C91F6ACEEF00BB31AD /* TextValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F56C51F6ACEEF00BB31AD /* TextValidator.swift */; };
+		C20F56CA1F6ACEEF00BB31AD /* ValidationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F56C61F6ACEEF00BB31AD /* ValidationTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C20F56AE1F6ACECF00BB31AD /* ValidatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20F56B11F6ACECF00BB31AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C20F56B31F6ACECF00BB31AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C20F56B61F6ACECF00BB31AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C20F56B81F6ACECF00BB31AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C20F56BB1F6ACECF00BB31AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C20F56BD1F6ACECF00BB31AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20F56C31F6ACEEF00BB31AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C20F56C41F6ACEEF00BB31AD /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		C20F56C51F6ACEEF00BB31AD /* TextValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidator.swift; sourceTree = "<group>"; };
+		C20F56C61F6ACEEF00BB31AD /* ValidationTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				C20F56B11F6ACECF00BB31AD /* AppDelegate.swift */,
-				C20F56B31F6ACECF00BB31AD /* ViewController.swift */,
-				C20F56B51F6ACECF00BB31AD /* Main.storyboard */,
+				C20F56C31F6ACEEF00BB31AD /* Main.storyboard */,
+				C20F56C41F6ACEEF00BB31AD /* RegistrationViewController.swift */,
+				C20F56C51F6ACEEF00BB31AD /* TextValidator.swift */,
+				C20F56C61F6ACEEF00BB31AD /* ValidationTextField.swift */,
 				C20F56B81F6ACECF00BB31AD /* Assets.xcassets */,
 				C20F56BA1F6ACECF00BB31AD /* LaunchScreen.storyboard */,
 				C20F56BD1F6ACECF00BB31AD /* Info.plist */,
@@ -125,7 +131,7 @@
 			files = (
 				C20F56BC1F6ACECF00BB31AD /* LaunchScreen.storyboard in Resources */,
 				C20F56B91F6ACECF00BB31AD /* Assets.xcassets in Resources */,
-				C20F56B71F6ACECF00BB31AD /* Main.storyboard in Resources */,
+				C20F56C71F6ACEEF00BB31AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C20F56B41F6ACECF00BB31AD /* ViewController.swift in Sources */,
+				C20F56CA1F6ACEEF00BB31AD /* ValidationTextField.swift in Sources */,
+				C20F56C91F6ACEEF00BB31AD /* TextValidator.swift in Sources */,
+				C20F56C81F6ACEEF00BB31AD /* RegistrationViewController.swift in Sources */,
 				C20F56B21F6ACECF00BB31AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +152,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C20F56B51F6ACECF00BB31AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C20F56B61F6ACECF00BB31AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C20F56BA1F6ACECF00BB31AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
